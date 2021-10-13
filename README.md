@@ -5,7 +5,7 @@
 
 ## Screenshots
 
-![Example screenshot](./assets/img/index.png)
+![Example screenshot](./disain web/index.png)
 
 <!-- If you have screenshots you'd like to share, include them here. -->
 
