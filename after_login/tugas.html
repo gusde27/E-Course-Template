@@ -52,49 +52,68 @@
 
     <section id="">
         <div class="container-fluid p-5">
-          <h3>Profile</h3>
+          <h2>Tugas</h2>
             <div class="row">
-                <div class="col-sm-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="../assets/img/gusde.png" class="img-fluid">
-                        </div>
-                    </div>
-                    <form>
-                        <div class="form-group">
-                          <label for="exampleFormControlFile1">Update Profile Picture</label>
-                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                        </div>
-                      </form>
+                <div class="col-sm-4">
+                    <img src="../assets/img/login.svg" class="img-fluid p-5">
                 </div>
-                <div class="col-sm-9 align-self-center">
-                    <form>
-                        <div class="alert alert-success alert-sm" role="alert">
-                            Data berhasil di update jika memang benar
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Name</label>
-                            <input type="email" class="form-control" value="I Gede Bagus Wirawan" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Address</label>
-                            <input type="email" class="form-control" value="Dusun Lamper" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Number of Telp</label>
-                            <input type="email" class="form-control" value="08778788877" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        </div>
-                        <div class="form-group">
-                          <label for="exampleInputPassword1">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1"> Confirm Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                            <small id="emailHelp" class="form-text text-muted">Password harus sama!</small>
-                          </div>
-                        <button type="submit" class="btn mt-3 btn-primary">Update Profile</button>
-                      </form>
+                <div class="col-sm-8 align-self-center">
+                  
+                  <!-- Pembayaran -->
+                  <h3>Daftar Tugas</h3>
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">No</th>
+                        <th scope="col">Kelas</th>
+                        <th scope="col">Deadline</th>
+                        <th scope="col">Bayar</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Bahasa Inggris</td>
+                        <td>13 jam 52 menit</td>
+                        <td>
+                          <button class="btn btn-danger btn-sm">Belum Dikumpulkan</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Bahasa Indonesia</td>
+                        <td>1 Menit 52 Detik</td>
+                        <td>
+                          <button class="btn btn-danger btn-sm">Belum Dikumpulkan</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>PHP Pemroraman</td>
+                        <td>1 Menit 52 Detik</td>
+                        <td>
+                          <button class="btn btn-success btn-sm">Sudah Dikumpulkan</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Javascript</td>
+                        <td>1 Menit 52 Detik</td>
+                        <td>
+                          <button class="btn btn-danger btn-sm">Belum Dikumpulkan</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Python</td>
+                        <td>1 Menit 52 Detik</td>
+                        <td>
+                          <button class="btn btn-success btn-sm">Sudah Dikumpulkan</button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- end pembayaran -->
                 </div>
             </div>
         </div>
