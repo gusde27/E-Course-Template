@@ -3,12 +3,6 @@
 > This template was made for web Dev Intern at Mechtech IDN
 > Live demo [_here_](https://gusde27.github.io/E-Course-Template/).
 
-## Screenshots
-
-![Example screenshot](./Disain Web/index.png)
-
-<!-- If you have screenshots you'd like to share, include them here. -->
-
 ## Project Status
 
 Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
